@@ -86,41 +86,90 @@ html {
     }
     .about {
        //margin: 10%;
-        width: 100%;
-        background-image: linear-gradient(to bottom right,  #A83279, #D38312);;
+        width: 90%;
+        //background-image: linear-gradient(to bottom right,  #A83279, #D38312);
         height: 100vh;
         // border-top-right-radius: 150px;
         // border-top-left-radius: 150px;
         // border-bottom-right-radius: 150px;
         // border-bottom-left-radius: 150px;
-        -webkit-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.51);
-        -moz-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.51);
-        box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.51);
+        // -webkit-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.51);
+        // -moz-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.51);
+        // box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.51);
         display: flex;
-        // flex-direction: column;
+        flex-direction: column;
         align-items: center;
+        padding-top: 50px;
+        margin-left: 5%;
+        margin-right: 5%;
         h1 {
-            color: $textLight;
+            background-image: linear-gradient(to bottom right, #A83279, #D38312);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
             font-size: 45px;
-            font-weight: 600;
+            font-weight: 700;
+            padding: 50px;
         }
         .aboutText{
-            color: $textLight;
-            font-size: 20px;
             display: flex;
-            padding: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-image: linear-gradient(to bottom right,  #A83279, #D38312);
+            -webkit-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.4);
+            -moz-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.4);
+            box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.4);
+            border-radius: 40px;
             .aboutLeft {
                 width: 100%;
                 align-items: center;
-                img {
-                    width: 90px;
-                    //filter: drop-shadow(0 0 5px rgb(93, 24, 205));
-                    padding: 10px;
+                padding: 20px;
+                p {
+                    text-align: center;
+                    color: $textLight;
+                    font-size: 22px;
                 }
+                .flags {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        width: 90px;
+                        padding: 10px;
+                    }
+                }
+                
             }
             .aboutRight {
                 width: 100%;
+                align-items: center;
+                padding: 20px;
+                p {
+                    text-align: center;
+                    color: $textLight;
+                    font-size: 22px;
+                }
+                .socials {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        width: 60px;
+                        padding: 10px;
+                    }
+                }
             }
         }
+    }
+    .projects {
+        width: 100%;
+        height: 100vh;
+    }
+    .contact {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to bottom right,  #A83279, #D38312);
     }
 }

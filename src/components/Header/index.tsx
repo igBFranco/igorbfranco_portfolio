@@ -8,8 +8,8 @@ export default function Header() {
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">Sobre</a></li>
-                <li><a href="#about">Projetos</a></li>
-                <li><a href="#about">Contato</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </div>
     </div>
