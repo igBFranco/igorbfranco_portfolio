@@ -26,8 +26,8 @@ function App() {
               <p>
                 Brasileiro e Luxemburguês, dedicado em buscar novos conhecimentos e oportunidades em tecnologia.
               </p>
-              <img src={Luxembourg} alt="Luxembourg Flag" />
               <img src={Brasil} alt="Brasil Flag" />
+              <img src={Luxembourg} alt="Luxembourg Flag" />
             </div>
             <div className={styles.aboutRight}>
               <p>
@@ -35,6 +35,9 @@ function App() {
               </p>
             </div>
           </div>
+        </div>
+        <div>
+          <h1>Projetos</h1>
         </div>
     </div>
   );

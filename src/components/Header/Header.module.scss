@@ -1,11 +1,19 @@
 @import 'styles/variables';
 
-
-
 .container {
     display: flex;
     justify-content: end;
+    position: sticky;
+    top: 0;
+    padding-top: 5px;
+    padding-right: 5px;
     .navbar {
+        background: rgba( 255, 255, 255, 0.5 );
+        backdrop-filter: blur( 10px );
+        -webkit-backdrop-filter: blur( 10px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        border-radius: 40px;
+        
         ul {
             display: flex;
             list-style-type: none;

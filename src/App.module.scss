@@ -5,43 +5,79 @@ body {
     margin: 0;
 }
 
+// @media (prefers-color-scheme: light) {
+//     body {
+//         background-color: #ffffff;
+//         color: $text;
+//     }
+// }
+
+// @media (prefers-color-scheme: dark) {
+//     body {
+//         background-color: $text;
+//         color: #c4c4c4;
+//     }
+// }
+
 html {
     scroll-behavior: smooth;
 }
 
 .container {
+    background-color: #fff;
+    // background-image:
+    //   radial-gradient(at top left, #db89d1, transparent),
+    //   radial-gradient(at top right, #e0753c, transparent),
+    //   radial-gradient(at bottom left, #5ba4d9, transparent);
+    // background-size: 100% 100%;
+    // background-repeat: no-repeat;
+    // background: #D38312;  /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to right, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to right, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    //     background-color: #4158D0;
+    // background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
     .primary {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        //margin-bottom: 10%;
         width: 80%;
+        height: 100vh;
         .profile {
             width: 100%;
-            
             //justify-content: center;
             //margin-left: 10%;
-            align-items: center;
+            //align-items: center;
             display: flex;
-            background-image: url('./assets/dev.svg');
-            background-position: 330px 100px;
+            background-image: url('./assets/dev2.svg');
+            background-position: 330px 250px;
             background-size: 700px;
             background-repeat: no-repeat;
+            height: 550px;
             img {
-                height: 430px;
+                width: 500px;
             }
             .greeting {
-               // margin-top: 100px;
+                margin-top: 140px;
                 margin-left: 40px;
                 h2 {
                     font-weight: 700;
-                    color: $primary;
+                    background-image: linear-gradient(to bottom right, #A83279, #D38312);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent; 
+                    -moz-background-clip: text;
+                    -moz-text-fill-color: transparent;
                     font-size: 40px;
                     margin: 0;
                 }
                 h3 {
                     font-size: 30px;
-                    font-weight: 500;
+                    font-weight: 600;
                     color: $text;
                     margin: 5px;
                 }
@@ -51,15 +87,17 @@ html {
     .about {
        //margin: 10%;
         width: 100%;
-        background-color: $primary;
+        background-image: linear-gradient(to bottom right,  #A83279, #D38312);;
         height: 100vh;
-        border-top-right-radius: 150px;
-        border-top-left-radius: 150px;
+        // border-top-right-radius: 150px;
+        // border-top-left-radius: 150px;
+        // border-bottom-right-radius: 150px;
+        // border-bottom-left-radius: 150px;
         -webkit-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.51);
         -moz-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.51);
         box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.51);
         display: flex;
-        flex-direction: column;
+        // flex-direction: column;
         align-items: center;
         h1 {
             color: $textLight;
@@ -76,7 +114,7 @@ html {
                 align-items: center;
                 img {
                     width: 90px;
-                    filter: drop-shadow(0 0 5px rgb(93, 24, 205));
+                    //filter: drop-shadow(0 0 5px rgb(93, 24, 205));
                     padding: 10px;
                 }
             }
