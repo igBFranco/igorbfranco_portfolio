@@ -6,10 +6,10 @@ export default function Header() {
     <div className={styles.container}>
         <div className={styles.navbar}>
             <ul>
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Projetos</li>
-                <li>Contato</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#about">Projetos</a></li>
+                <li><a href="#about">Contato</a></li>
             </ul>
         </div>
     </div>
