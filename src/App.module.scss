@@ -1,0 +1,45 @@
+@import 'styles/variables';
+
+body {
+    font-family: 'Exo', sans-serif;
+}
+
+.container {
+    .primary {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10%;
+        width: 90%;
+        .profile {
+            width: 100%;
+            //justify-content: center;
+            //margin-left: 10%;
+            align-items: center;
+            display: flex;
+            background-image: url('./assets/dev.svg');
+            background-position: 250px 80px;
+            background-size: 800px;
+            background-repeat: no-repeat;
+            img {
+                height: 400px;
+            }
+            .greeting {
+               // margin-top: 100px;
+                margin-left: 40px;
+                h2 {
+                    font-weight: 700;
+                    color: $primary;
+                    font-size: 40px;
+                    margin: 0;
+                }
+                h3 {
+                    font-size: 30px;
+                    font-weight: 500;
+                    color: $text;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}
