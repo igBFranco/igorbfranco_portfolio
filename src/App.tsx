@@ -7,6 +7,9 @@ import Brasil from './assets/brasil.svg';
 import Instagram from './assets/instagram.svg';
 import Github from './assets/github.svg';
 import Linkedin from './assets/linkedin.svg';
+import Phone from './assets/phone.svg';
+import Email from './assets/email.svg';
+import Location from './assets/location.svg';
 
 function App() {
   return (
@@ -48,11 +51,36 @@ function App() {
             </div>
           </div>
         </div>
-        <div className={styles.projects} id="projects">
+        {/* <div className={styles.projects} id="projects">
           <h1>Projetos</h1>
-        </div>
+        </div> */}
         <div className={styles.contact} id="contact">
-          <h1>Contato</h1>
+          <div className={styles.contactTitle}>
+            <h1>Contato</h1>
+          </div>
+          <div className={styles.contactBox}>
+            <div className={styles.contactPhone}>
+              <img src={Phone} alt="" />
+              <div className={styles.phoneInfo}>
+                <h2>Me ligue</h2>
+                <a href="tel:+5547996371053"><h4>+55(47)99637-1053</h4></a>
+              </div>
+            </div>
+            <div className={styles.contactEmail}>
+              <img src={Email} alt="" />
+              <div className={styles.emailInfo}>
+                <h2>Email</h2>
+                <h4>igorbfranco@outlook.com.br</h4>
+              </div>
+            </div>
+            <div className={styles.contactLocation}>
+              <img src={Location} alt="" />
+              <div className={styles.locationInfo}>
+                <h2>Localização</h2>
+                <h4>Itaiópolis - SC , Brasil</h4>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
   );
