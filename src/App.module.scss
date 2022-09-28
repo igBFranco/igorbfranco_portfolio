@@ -224,8 +224,34 @@ html {
             }
         }
         .about {
+            h1 {
+                padding: 0;
+            }
             .aboutText {
                 flex-direction: column;
+                padding-left: 32px;
+                padding-right: 32px;
+                .aboutLeft {
+                    padding: 0;
+                    p {
+                        margin-bottom: 0;
+                        margin-top: 35px;
+                    }
+                    .flags {
+                        img {
+                            width: 50px;
+                        }
+                    }
+                }
+                .aboutRight {
+                    padding: 0;
+                    .socials {
+                        img {
+                            width: 40px;
+                            margin-bottom: 35px;
+                        }
+                    }
+                }
             }
         }
     }
