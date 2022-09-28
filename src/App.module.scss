@@ -206,5 +206,10 @@ html {
                 }
             }
         }
+        .about {
+            .aboutText {
+                flex-direction: column;
+            }
+        }
     }
 }
