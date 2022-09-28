@@ -19,6 +19,7 @@ function App() {
               <h2>Olá,</h2>
               <h3>eu sou o</h3>
               <h3>Igor Bueno Franco</h3>
+              <h4>Desenvolvedor Web e Mobile</h4>
             </div>
           </div>
         </div>

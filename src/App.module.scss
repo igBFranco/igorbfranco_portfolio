@@ -81,6 +81,9 @@ html {
                     color: $text;
                     margin: 5px;
                 }
+                h4 {
+                    display: none;
+                }
             }
         }
     }
@@ -195,14 +198,28 @@ html {
             .profile {
                 flex-direction: column-reverse;
                 justify-content: flex-start;
+                align-items: center;
                 background-position: 120px 360px;
-                background-size: 200px;
-                height: 450px;
+                background-size: 0;
+                height: 500px;
                 img {
-                    max-width: 200px;
+                    max-width: 250px;
                 }
                 .greeting {
                     margin-top: 0;
+                    margin-left: 0;
+                    h4 {
+                        display: flex;
+                        margin: 5px;
+                        font-size: 18px;
+                        background-image: linear-gradient(to bottom right, #A83279, #D38312);
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent; 
+                        -moz-background-clip: text;
+                        -moz-text-fill-color: transparent;
+                        
+                    }
                 }
             }
         }
