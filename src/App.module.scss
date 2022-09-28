@@ -318,6 +318,33 @@ html {
     }
 }
 
+@media (max-width: 1300px){ 
+    .container {
+        .primary {
+            .profile {
+                background-position: 270px 250px;
+                background-size: 60%;
+                img {
+                    max-width: 400px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1100px){ 
+    .container {
+        .primary {
+            .profile {
+                background-position: 250px 250px;
+                background-size: 60%;
+                img {
+                    max-width: 350px;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 425px){
     .container {
         .primary {
