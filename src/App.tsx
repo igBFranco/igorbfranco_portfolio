@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import Header from './components/Header';
 import styles from './App.module.scss';
 import Profile from './assets/profile.svg';
@@ -14,6 +14,15 @@ import Location from './assets/location.svg';
 function App() {
   let date = new Date();
   let year = date.getFullYear();
+  const [theme, setTheme] = useState('light');
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  };
+
   return (
     <div className={styles.container} id="home">
         <Header/>
