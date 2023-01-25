@@ -1,31 +1,31 @@
 @import 'styles/variables';
 
-@media (prefers-color-scheme: dark) {
-    .container {
-        .navbar {
-            background: rgba(19, 19, 19, 0.5);
-            border: 1px solid rgba( 19, 19, 19, 0.18 );
-            ul {
-                li {
-                    color: $textLight;
-                }
-            }
-        }
-    }
-}
-@media (prefers-color-scheme: light) {
-    .container {
-        .navbar {
-            background: rgba( 255, 255, 255, 0.5 );
-            border: 1px solid rgba( 255, 255, 255, 0.18 );
-            ul {
-                li {
-                    color: $secondary;
-                }
-            }
-        }
-    }
-}
+// @media (prefers-color-scheme: dark) {
+//     .container {
+//         .navbar {
+//             background: rgba(19, 19, 19, 0.5);
+//             border: 1px solid rgba( 19, 19, 19, 0.18 );
+//             ul {
+//                 li {
+//                     color: $textLight;
+//                 }
+//             }
+//         }
+//     }
+// }
+// @media (prefers-color-scheme: light) {
+//     .container {
+//         .navbar {
+//             background: rgba( 255, 255, 255, 0.5 );
+//             border: 1px solid rgba( 255, 255, 255, 0.18 );
+//             ul {
+//                 li {
+//                     color: $secondary;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 .container {
     display: flex;
@@ -38,6 +38,7 @@
         //background: rgba( 255, 255, 255, 0.5 );
         backdrop-filter: blur( 10px );
         -webkit-backdrop-filter: blur( 10px );
+        
         //border: 1px solid rgba( 255, 255, 255, 0.18 );
         border-radius: 40px;
         ul {
