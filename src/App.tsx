@@ -1,27 +1,16 @@
-import { useState } from 'react';
 import Header from './components/Header';
 import styles from './App.module.scss';
 import Profile from './assets/profile.svg';
 import Luxembourg from './assets/luxembourg.svg';
 import Brasil from './assets/brasil.svg';
-import Instagram from './assets/instagram.svg';
-import Github from './assets/github.svg';
-import Linkedin from './assets/linkedin.svg';
+import Instagram from './assets/instagram.png';
+import Github from './assets/github.png';
+import Linkedin from './assets/linkedin.png';
 import Phone from './assets/phone.svg';
 import Email from './assets/email.svg';
 import Location from './assets/location.svg';
 
 function App() {
-  let date = new Date();
-  let year = date.getFullYear();
-  const [theme, setTheme] = useState('light');
-  const toggleTheme = () => {
-    if (theme === 'light') {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
-  };
 
   return (
     <div className={styles.container} id="home">

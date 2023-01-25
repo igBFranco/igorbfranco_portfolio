@@ -7,7 +7,8 @@ body {
 
 @media (prefers-color-scheme: light) {
     body {
-        background-color: #ffffff;
+        //background-color: #ffffff;
+        background-color: #e5e3e3;
         color: $text;
         .container {
             .primary {
@@ -73,20 +74,22 @@ html {
         .profile {
             width: 100%;
             //justify-content: center;
-            //margin-left: 10%;
+            //margin-left: 10px;
             //align-items: center;
+            justify-content: center;
             display: flex;
             background-image: url('./assets/dev2.svg');
-            background-position: 330px 250px;
-            background-size: 700px;
+            background-position: 90% 80%;
+            background-size: 750px;
             background-repeat: no-repeat;
             height: 550px;
             img {
                 width: 500px;
             }
             .greeting {
-                margin-top: 140px;
-                margin-left: 40px;
+                margin-top: 5%;
+                //margin-left: 10%;
+                padding-left: 10%;
                 h2 {
                     font-weight: 700;
                     background-image: linear-gradient(to bottom right, #A83279, #D38312);
@@ -130,7 +133,8 @@ html {
         margin-right: 5%;
         margin-bottom: 30%;
         h1 {
-            background-image: linear-gradient(to bottom right, #A83279, #D38312);
+            //background-image: linear-gradient(to bottom right, #A83279, #D38312);
+            background-color: $text;
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent; 
@@ -144,18 +148,19 @@ html {
             display: flex;
             padding-left: 50px;
             padding-right: 50px;
-            background-image: linear-gradient(to bottom right,  #A83279, #D38312);
-            -webkit-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.4);
-            -moz-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.4);
-            box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.4);
-            border-radius: 40px;
+            //background-image: linear-gradient(to bottom right,  #A83279, #D38312);
+            background-color: #ffffff;
+            -webkit-box-shadow: 10px -7px 50px -7px rgba(0,0,0,0.1);
+            -moz-box-shadow: 10px -7px 50px -7px rgba(0,0,0,0.1);
+            box-shadow: 10px -7px 50px -7px rgba(0,0,0,0.1);
+            border-radius: 10px;
             .aboutLeft {
                 width: 100%;
                 align-items: center;
                 padding: 20px;
                 p {
                     text-align: center;
-                    color: $textLight;
+                    color: $text;
                     font-size: 22px;
                 }
                 .flags {
@@ -175,7 +180,7 @@ html {
                 padding: 20px;
                 p {
                     text-align: center;
-                    color: $textLight;
+                    color: $text;
                     font-size: 22px;
                 }
                 .socials {
@@ -223,7 +228,8 @@ html {
             margin-bottom: 30%;
             .contactTitle {
                 h1 {
-                    background-image: linear-gradient(to bottom right, #A83279, #D38312);
+                   // background-image: linear-gradient(to bottom right, #A83279, #D38312);
+                   background-color: $text;
                     background-clip: text;
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent; 
@@ -314,20 +320,21 @@ html {
             }
         }
         .footer {
-            background-image: linear-gradient(to bottom right, #A83279, #D38312);
+            //background-image: linear-gradient(to bottom right, #A83279, #D38312);
+            background-color: #ffffff;
             bottom: 0;
             width: 90%;
             height: 100px;
             margin-bottom: 20px;
-            -webkit-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.4);
-            -moz-box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.4);
-            box-shadow: 12px -7px 83px -7px rgba(0,0,0,0.4);
-            border-radius: 20px;
+            -webkit-box-shadow: 10px -7px 50px -7px rgba(0,0,0,0.1);
+            -moz-box-shadow: 10px -7px 50px -7px rgba(0,0,0,0.1);
+            box-shadow: 10px -7px 50px -7px rgba(0,0,0,0.1);
+            border-radius: 10px;
             display: flex;
             justify-content: space-around;
             align-items: center;
             h1 {
-                color: $textLight;
+                color: $text;
                 font-size: 22px;
                 padding-left: 25px;
             }
