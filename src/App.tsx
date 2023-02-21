@@ -6,7 +6,6 @@ import Brasil from './assets/brasil.svg';
 import Instagram from './assets/instagram.png';
 import Github from './assets/github.png';
 import Linkedin from './assets/linkedin.png';
-import Phone from './assets/phone.svg';
 import Email from './assets/email.svg';
 import Location from './assets/location.svg';
 
