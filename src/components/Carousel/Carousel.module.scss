@@ -1,0 +1,33 @@
+@import 'styles/variables';
+
+
+
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .prevButton {
+        border: none;
+        background-color: transparent;
+        font-size: 30px;
+        img {
+            width: 80%;
+            height: 60%;
+        }
+    }
+    .carouselImage {
+        width: 500px;
+        height: 400px;
+    }
+    
+    .nextButton {
+        border: none;
+        background-color: transparent;
+        font-size: 30px;
+        img {
+            width: 80%;
+            height: 60%px;
+        }
+    }
+}

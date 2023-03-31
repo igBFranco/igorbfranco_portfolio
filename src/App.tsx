@@ -8,6 +8,7 @@ import Github from './assets/github.png';
 import Linkedin from './assets/linkedin.png';
 import Email from './assets/email.svg';
 import Location from './assets/location.svg';
+import Carousel from './components/Carousel';
 
 function App() {
 
@@ -74,6 +75,7 @@ function App() {
               </div>
             </div>
           </div>
+          {/* <Carousel images={[]}/> */}
           <div className={styles.footer}>
             <h1>Igor Bueno Franco</h1>
             <div className={styles.footerBox}>

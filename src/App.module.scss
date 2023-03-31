@@ -1,5 +1,14 @@
 @import 'styles/variables';
 
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
 body {
     font-family: 'Exo', sans-serif;
     margin: 0;
@@ -89,7 +98,8 @@ body {
                 background-repeat: no-repeat;
                 height: 550px;
                 img {
-                    width: 500px;
+                    width: 500px;;
+                    animation: 1s ease-out 0s 1 slideInFromLeft;
                 }
                 img:hover {
                     filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.4));
@@ -370,6 +380,10 @@ body {
                     img:not(:hover) {
                         transform: scale(1);
                         transition-duration: 0.5s;
+                    }
+                    img:active {
+                        transform: scale(0.9);
+                        transition: all 0.2s ease-in-out;
                     }
                 }
             }
