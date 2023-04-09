@@ -1,16 +1,19 @@
 import Header from './components/Header';
 import styles from './App.module.scss';
 import Profile from './assets/profile.svg';
-import Luxembourg from './assets/luxembourg.svg';
-import Brasil from './assets/brasil.svg';
 import Instagram from './assets/instagram.png';
 import Github from './assets/github.png';
 import Linkedin from './assets/linkedin.png';
 import Email from './assets/email.svg';
 import Location from './assets/location.svg';
 import Carousel from './components/Carousel';
+import Brasil from './assets/brasil.svg';
+import Luxembourg from './assets/luxembourg.svg';
+
 
 function App() {
+  
+  const images = [Brasil, Luxembourg];
 
   return (
     <div className={styles.container} id="home">
@@ -75,7 +78,7 @@ function App() {
               </div>
             </div>
           </div>
-          {/* <Carousel images={[]}/> */}
+          {/* <Carousel images={images}/> */}
           <div className={styles.footer}>
             <h1>Igor Bueno Franco</h1>
             <div className={styles.footerBox}>

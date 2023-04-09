@@ -2,12 +2,9 @@ import { useState } from 'react';
 import styles from './Carousel.module.scss';
 import Next  from '../../assets/next.svg';
 import Prev from '../../assets/previous.svg';
-import Brasil from '../../assets/brasil.svg';
-import Luxembourg from '../../assets/luxembourg.svg';
 
-const images = [Brasil, Luxembourg];
 
-function Carousel({ images: [] }) {
+function Carousel({ images }: { images: string[]}) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   function handleClickPrev() {
